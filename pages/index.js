@@ -75,7 +75,7 @@ export default function Home() {
       <div className="card">
         <div className="flex justify-center">
           <Image
-            src="/../public/download.svg"
+            src="/download.svg"
             alt="Logo"
             width="100%"
             height={100}
