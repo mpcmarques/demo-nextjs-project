@@ -43,7 +43,7 @@ export default function Home() {
         setLoadingPage(false);
       }
     }
-  }, [user]);
+  }, [user, dispatch, router]);
 
   const fetchLogin = async () => {
     if (email !== "" && password !== "") {

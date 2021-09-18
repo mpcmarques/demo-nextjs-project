@@ -22,7 +22,7 @@ const Dashboard = () => {
     if (user == null) {
       router.replace("/");
     }
-  }, [user]);
+  }, [user, router]);
 
   useEffect(() => {
     try {

@@ -22,7 +22,7 @@ const Cadastro = () => {
     if (user !== null) {
       router.replace("/dashboard");
     }
-  }, [user]);
+  }, [user, router]);
 
   const signUp = async () => {
     if (name != "" && password != "" && email != "") {
